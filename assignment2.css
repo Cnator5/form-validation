@@ -1,0 +1,241 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      margin-right: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .product {
+      background-color: #fff;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 350px;
+      justify-content: center;
+      align-items: center;
+      margin-left: 60px;
+      width: 70%; 
+    }
+
+    .product img {
+      max-width: 150px;
+    }
+
+    .product h3 {
+      margin-top: 10px;
+    }
+
+    .product p {
+      font-size: 14px;
+      color: black;
+    }
+
+    .product button {
+      color: black;
+      border: none;
+      padding: 10px;
+      border: 1px solid black;
+      cursor: pointer;
+      border-radius: 30px;
+      margin-top: 20px;
+    }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  margin-top: 120px;
+}
+
+.middle {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  gap: 40px;
+}
+span{
+    display: block;
+}
+.care{
+    display: flex;
+    flex-direction: column;
+}
+.care p{
+    margin-top: 20px;
+}
+.side_bar-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.side_bar-left > div {
+  margin-bottom: 20px;
+}
+
+.p001 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p001 p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.lorem {
+  text-align: start;
+}
+
+.image-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 350px;
+}
+
+.image-center img {
+  max-width: auto;
+  height: 40vh;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right-side > div {
+  margin-bottom: 20px;
+}
+
+.sidebar a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.sidebar i {
+  margin-left: 10px;
+  color: blue;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.sidebar{
+    background-color: #fff;
+    padding: 15px;
+}
+body{
+    background-color: yellow;
+}
+
+*{
+    box-sizing: border-box;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    position: relative !important;
+}
+
+/* left nav */
+.owl-nav .owl-prev{
+    background-color:  #fff !important;
+    height: 50px !important;
+    width: 30px !important;
+    color: black !important;
+    font-size: 40px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    border-radius: 50%;
+}
+.owl-nav .owl-next{
+  background-color: #fff !important;
+  height: 50px !important;
+  width: 30px !important;
+  color: black !important;
+  font-size: 40px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 25%;
+  right: 10px;
+  border-radius: 50%;
+}
+.owl-dots .owl-dot{
+  background-color: #fff !important;
+  height: 20px !important;
+  width: 20px !important;
+  color:  black !important;
+  font-size: 40px !important;
+  margin: 20px;
+  border-radius: 50%;
+}
+.owl-dots{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.owl-dots .owl-dot .active{
+  background-color: brown;
+  border: 1px solid #f74 !important;
+}
+.card{
+    height: 500px;
+    width: 300px;
+    background-color: brown;
+    overflow: hidden;
+}

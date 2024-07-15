@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trendy Collection</title>
+  <link rel="stylesheet" href="assignment2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <header>
+    <h1>Amazon</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Collections</a></li>
+        <li><a href="#">Brands</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Sales</a></li>
+        <li><a href="#">ENG</a><select name="" id="eng"></select></li>
+        <div>
+            <input type="search" name="" id="search" ><i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </ul>
+    </nav>
+  </header>
+  <style>
+    .search-container {
+  display: flex;
+  align-items: center;
+}
+
+#search {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 150px;
+}
+
+#search::placeholder {
+  color: #888;
+}
+
+.fa-magnifying-glass {
+  margin-left: 8px;
+  color: #666;
+  cursor: pointer;
+  position: absolute;
+  left: 94%;
+ padding: 5px;
+}
+  </style>
+<main class="main-section">
+    <div class="middle">
+        <div class="side_bar-left">
+            <div>
+                <h1>SKIN <br> PROTECTION <br> CREAM</h1>
+            </div>
+            <div class="p001">
+                <p class="p01">01</p>
+                <p class="p02">02 ........</p>
+            </div>
+            <div class="lorem">
+                <h1>Trendy <br> Collection</h1>
+                <p>Lorem ipsum dolor <br> sit amet consectetur <br> adipisicing elit.</p>
+          </div>
+          <div class="image-center">
+            <img src="download (1).jpeg" alt="">
+          </div>
+          <div class="right-side">
+            <div>
+                <h1>1.5m</h1>
+                <p>Monthly traffic</p>
+              </div>
+              <div>
+                <h1>100k</h1>
+                <p>Happy customers</p>
+              </div>
+            <div class="sidebar">
+                <a href="#">Best Singup Offers <i class="fas fa-arrow-right"></i></a>
+              </div>
+          </div>        
+      </div>
+      
+      <style>
+        .right-side{
+            position: absolute;
+            right: 200px;
+        }
+        .p01{
+            border-radius: 50%;
+            background-color: #fff;
+        }
+      </style>
+</main>
+  
+  
+
+  <div class="container">
+    <div class="owl-carousel owl-theme">
+    <div class="product" data-aos="flip-left">
+      <img src="download.jpeg" alt="Skin Product 1">
+      <span class="care">
+      <h3>SKIN</h3>
+      <p>Super care</p>
+      <p>$25</p>
+      </span>
+      <button>Shop Now</button>
+    </div>
+    <div class="product" data-aos="flip-left">
+      <img src="download (2).jpeg" alt="Skin Product 2">
+      <span class="care">
+     <h3>Skine</h3>
+      <p>Moisturizer Skin Car</p>
+      <p>$25</p>
+      </span>
+      <button>Shop Now</button>
+    </div>
+    <div class="product" data-aos="flip-left">
+      <img src="download (3).jpeg" alt="Nature Product" data-aos="flip-left">
+      <span class="care">
+        <h3>Nature</h3>
+      <p>Nature Super Oil</p>
+      <p>$25</p>
+      </span>
+      <button>Shop Now</button>
+    </div>
+    <div class="product" data-aos="flip-left">
+      <img src="download.jpeg" alt="Skin Product 1" data-aos="flip-left">
+      <span class="care">
+      <h3>Skin</h3>
+      <p>Super care</p>
+      <p>$25</p>
+      </span>
+      <button>Shop Now</button>
+    </div>
+    <div class="product" data-aos="flip-left">
+    <img src="download (2).jpeg" alt="Skin Product 2" data-aos="flip-left">
+    <span class="care">
+     <h3>Nature</h3>
+      <p>Super natural oil</p>
+      <p>$25</p>
+      </span>
+      <button>Shop Now</button>
+    </div>
+    <div class="product" data-aos="flip-left">
+      <img src="download (3).jpeg" alt="Nature Product" data-aos="flip-left">
+     <span onclick="" class="care">
+        <h3>Nature</h3>
+        <p>Super natural oil</p>
+        <p>$25</p>
+     </span>
+      <button>Shop Now</button>
+    </div>
+  </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="assignment2.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

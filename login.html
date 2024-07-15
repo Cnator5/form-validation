@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <form action="" class="log">
+        <h1>Registration Form</h1>
+        <input type="text" id="second" placeholder="Name" required>
+        <input type="text" name="" id="second" placeholder="Address">
+        <input type="email" name="email" id="second" placeholder="Email or phone number" required>
+        <input type="password" 
+                   id="password" 
+                   name="password" 
+                   pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                   title="Must contain at least one number,  
+               one uppercase and lowercase letter, and at least 8 characters"  
+                   required placeholder="Password"> 
+  
+            <div id="password-message"> 
+                <h3>Password must contain:</h3> 
+                <p class="password-message-item invalid">At least 
+                    <b>one lowercase letter</b> 
+                </p> 
+                <p class="password-message-item invalid">At least 
+                    <b>one uppercase letter</b> 
+                </p> 
+                <p class="password-message-item invalid">At least 
+                    <b>one number</b> 
+                </p> 
+                <p class="password-message-item invalid">Minimum 
+                    <b>8 characters</b> 
+                </p> 
+            </div> 
+  
+        <button class="btt-first">Login</button>
+        <div>
+            <p>Forgot account? Signup</p>
+        </div>
+    </form>
+
+<script src="login.js"></script>
+</body>
+</html>
